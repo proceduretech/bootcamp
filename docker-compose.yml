@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: django_img
+    container_name: django_img
+    volumes:
+      - .:/app
+    command: python3 manage.py runserver 0.0.0.0:8000
+    ports:
+        - "8000:8000"
