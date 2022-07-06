@@ -1,0 +1,14 @@
+django==3.0.5
+django-environ==0.4.5
+django-model-utils==4.0.0
+django-crispy-forms==1.9.0
+django-cors-headers==3.5.0
+
+djangorestframework==3.12.0
+djangorestframework-csv==2.1.1
+djangorestframework-simplejwt
+django-filter==2.3.0
+
+psycopg2==2.8.6
+django-heroku
+gunicorn
